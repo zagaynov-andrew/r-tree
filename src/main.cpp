@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "src/geometry/Triangle3D.h"
-#include "src/rtree/RTree3D.h"
+#include "geometry/Triangle3D.h"
+#include "rtree/RTree3D.h"
 
 void printTriangle(const Triangle3D& t) {
     std::cout << "Triangle: "

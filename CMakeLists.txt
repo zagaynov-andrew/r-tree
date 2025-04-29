@@ -3,7 +3,7 @@ project(rtree)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(rtree main.cpp
+add_executable(rtree src/main.cpp
         src/geometry/Point3D.h
         src/rtree/MBR.h
         src/rtree/RTreeNode.h
